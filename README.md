@@ -66,7 +66,7 @@ Step 9: Install Jenkins Plugins
 - Click the Available tab.
 - Search and install the following:
 
-- ✅ Pipeline: stage view
+- Pipeline: stage view
 
 Step 10: Create a Jenkins Pipeline Job (Create EKS Cluster)
 - Go to Jenkins Dashboard
