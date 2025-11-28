@@ -83,3 +83,13 @@ Pipeline:
 - Script Path : eks-terraform/eks-jenkinsfile
 - Apply
 - Save
+
+### 6. click Build with Parameters
+
+ACTION :
+Select Terraform action : apply, then Build
+To verify your EKS cluster, connect to your EC2 jumphost server and run:
+```
+aws eks --region us-east-1 update-kubeconfig --name project-eks
+kubectl get nodes
+```
